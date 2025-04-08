@@ -1,0 +1,35 @@
+/* External CSS: */
+/*
+CSS Selector: body - elementet vi vil modifisere
+CSS Declaration: {} - identifiserer hvor vi skriver koden for modifisering
+CSS Rule: backbround-color: blue; - 'key' på hva skal modifseres og 'value' til hvordan det skal modifiserest
+*/
+
+header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    background-color: brown;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.projects {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+}
+
+.epost {
+    background-color: blueviolet;
+}
+
+.bungee-tint-regular {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
