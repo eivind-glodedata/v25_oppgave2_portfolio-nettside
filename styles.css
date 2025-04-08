@@ -16,12 +16,17 @@ header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heroText {
+    background-color: aquamarine;
 }
 
 .projects {
-    background-color: brown;
     display: flex;
     flex-direction: column;
+    font-family: "Bungee Tint"
 }
 
 .epost {
