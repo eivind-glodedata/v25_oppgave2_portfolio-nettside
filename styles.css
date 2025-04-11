@@ -5,17 +5,41 @@ CSS Declaration: {} - identifiserer hvor vi skriver koden for modifisering
 CSS Rule: backbround-color: blue; - 'key' på hva skal modifseres og 'value' til hvordan det skal modifiserest
 */
 
+/* GLOBAL CSS */
+
+.bungee-tint-regular {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* HEADER */
+
+.logo {
+    /* 'Shorthand' metode */
+    border: 3px black solid;
+    /* 'Longhand' metode
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    */
+    padding: 10px;
+    border-radius: 50%;
+}
+
 header {
     display: flex;
     align-items: center; 
-    justify-content: center;
+    justify-content: space-between;
     background-color: brown;
 }
 
+/* MAIN */
+
 .hero {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-start;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -23,9 +47,21 @@ header {
     background-color: aquamarine;
 }
 
+.bio {
+    display: flex;
+}
+
+.bioPic {
+    width: 66.66%;
+}
+
+.bioText{
+    flex: 0 0 33.33%
+}
+
 .projects {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-family: "Bungee Tint"
 }
 
@@ -33,21 +69,8 @@ header {
     background-color: blueviolet;
 }
 
-#epost{
-font-size: large;
-text-decoration: wavy;
-text-decoration-line: underline;
-}
 
-.bungee-tint-regular {
-    font-family: "Bungee Tint", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
 
-#navbarlist {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+
+/* FOOTER */
+

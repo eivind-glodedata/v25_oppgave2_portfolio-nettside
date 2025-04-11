@@ -15,52 +15,47 @@
 
   <!-- body: det som skal synes -->
 
-
- 
   <body>
     <header>
+      <p class="logo">EB</p>
       <nav id="navbar" class="nav">
-        <ul class="navbarlist">
-        <li><a href="#bio">Om meg</a></li>
-        <li><a href="#prosjekter">Prosjekter</a></li>
-        <li><a href="#epost">Kontakt</a></li>
-        </ul>
+        <a href="#bio">Om meg</a>
+        <a href="#prosjekter">Prosjekter</a>
+        <a href="#epost">Kontakt</a>
       </nav>
     </header>
 
     <main>
       <section class="hero">
       <div class="heroText">
-        <h1>Portfolio</h1>
-        <p>
-          Jeg heter Eivind og er student i programmering på Gløde Data. Dette er en oversikt over prosjekter som jeg jobber med.
-        </p>
+        <h1>
+        Jeg heter Eivind og er student i programmering på Gløde Data. Dette er en oversikt over prosjekter som jeg jobber med.
+        </h1>   
+        </div>
         <button class="knapp"><a href="mailto:eivind.glodedata@gmail.com">Send Epost</a></button>
-        <br>
-        <a href="#epost" class="link">Vis kontaktinformasjon</a>
-      
-      </div>
+        <button><a href="#epost" class="link">Vis kontaktinformasjon</a></button>
       </section>
-      <section>
-        <article id="bio"><h2>Mer om meg</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde, repellendus velit a qui ipsa veritatis numquam cum, alias beatae voluptate laudantium ipsam iste omnis, blanditiis consectetur quibusdam molestiae commodi.</article>
+      <section class="bio" id="bio">
+        <article class="bioText"><h2>Mer om meg</h2>
+        <p>Jeg er 46 år, utdannet i latin og kunst, og har jobbet som frilans-oversetter tidligere. Nå skal jeg bli webutvikler og programmerer! Jeg lærer HTML, CSS og Javascript foreløpig. Har også litt erfaring med C#. Ellers har jeg vært med å på grunnlegge en nettside som heter <a href="http://fertiledating.com">fertiledating.com</a> og tenker å uvikle denne videre på fritiden.</p>
+        </article>
+        <img class="bioPic" src="selfie2.jpg" alt="selfie">
       </section>
+
       <section class="projects" id="prosjekter">
-        
         <h2>Prosjekter</h2>
         <ul>
           <li>Prosjekt1</li>
           <li>Prosjekt2</li>
           <li>Prosjek3</li>
         </ul>
-    
-
       </section>
+
       <aside id="epost" class="epost">Kontaktinformasjon: eivind.glodedata@gmail.com</aside>
-       </main>
+      </main>
 
     <footer>
       <h3>Laget av Eivind</h3>
-      
       <h4><a href="https://github.com/eivind-glodedata">Min GitHub-profil</a></h4>
     </footer>
   </body>
