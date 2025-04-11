@@ -19,10 +19,12 @@
  
   <body>
     <header>
-      <nav>
-        <a href="#">Hjem</a>
-        <a href="#bio">Om meg</a>
-        <a href="#prosjekter">Prosjekter</a>
+      <nav id="navbar" class="nav">
+        <ul class="navbarlist">
+        <li><a href="#bio">Om meg</a></li>
+        <li><a href="#prosjekter">Prosjekter</a></li>
+        <li><a href="#epost">Kontakt</a></li>
+        </ul>
       </nav>
     </header>
 
@@ -43,10 +45,14 @@
         <article id="bio"><h2>Mer om meg</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde, repellendus velit a qui ipsa veritatis numquam cum, alias beatae voluptate laudantium ipsam iste omnis, blanditiis consectetur quibusdam molestiae commodi.</article>
       </section>
       <section class="projects" id="prosjekter">
+        
         <h2>Prosjekter</h2>
-        <h3>Prosjekt1</h3>
-        <h3>Prosjekt2</h3>
-        <h3>Prosjekt3</h3>
+        <ul>
+          <li>Prosjekt1</li>
+          <li>Prosjekt2</li>
+          <li>Prosjek3</li>
+        </ul>
+    
 
       </section>
       <aside id="epost" class="epost">Kontaktinformasjon: eivind.glodedata@gmail.com</aside>
@@ -54,6 +60,8 @@
 
     <footer>
       <h3>Laget av Eivind</h3>
+      
+      <h4><a href="https://github.com/eivind-glodedata">Min GitHub-profil</a></h4>
     </footer>
   </body>
 </html>

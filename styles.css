@@ -8,7 +8,7 @@ CSS Rule: backbround-color: blue; - 'key' på hva skal modifseres og 'value' til
 header {
     display: flex;
     align-items: center; 
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: brown;
 }
 
@@ -33,8 +33,21 @@ header {
     background-color: blueviolet;
 }
 
+#epost{
+font-size: large;
+text-decoration: wavy;
+text-decoration-line: underline;
+}
+
 .bungee-tint-regular {
     font-family: "Bungee Tint", sans-serif;
     font-weight: 400;
     font-style: normal;
+  }
+  
+
+#navbarlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
