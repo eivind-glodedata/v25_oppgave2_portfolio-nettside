@@ -53,6 +53,7 @@ header {
 
 .bioPic {
     width: 66.66%;
+    object-fit: contain;
 }
 
 .bioText{
